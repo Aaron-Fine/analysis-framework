@@ -1,6 +1,7 @@
-# Analysis Framework
+# The Meal Fights Back
 
-A small, framework-free static publication for Aaron Fine's public-source decision analysis, prediction tracking, and research notes.
+A small, framework-free static publication for Aaron Fine's public-source
+decision analysis, prediction tracking, and research notes.
 
 ## Local preview
 
