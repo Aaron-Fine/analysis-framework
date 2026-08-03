@@ -1,7 +1,9 @@
 # The Meal Fights Back
 
-A small, framework-free static publication for Aaron Fine's public-source
-decision analysis, prediction tracking, and research notes.
+A static publication for Aaron Fine's public-source decision analysis. It uses
+four paired lenses—ends, commitment, authority, and feedback—and a scored
+prediction ledger with explicit time horizons, update triggers, and resolution
+criteria.
 
 ## Local preview
 
@@ -31,5 +33,8 @@ public/
 ├── 404.html
 └── _headers
 ```
+
+The active ledger covers four case groups: Iran, critical-water cyberattacks,
+the post-court tariff regime, and administrative-state restructuring.
 
 Public-source analysis and views are personal.
