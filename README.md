@@ -34,7 +34,8 @@ public/
 └── _headers
 ```
 
-The active ledger covers four case groups: Iran, critical-water cyberattacks,
-the post-court tariff regime, and administrative-state restructuring.
+The active ledger covers Iran, two linked Greenland forecasts, the post-court
+tariff regime, and administrative-state restructuring. The resolved
+critical-water cyber forecast remains visible with its history and score.
 
 Public-source analysis and views are personal.
