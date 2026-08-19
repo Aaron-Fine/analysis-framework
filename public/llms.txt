@@ -1,0 +1,23 @@
+# The Meal Fights Back
+
+> A public-source decision-analysis publication by Aaron Fine. It uses four paired lenses—ends, commitment, authority, and feedback—and tests them with a dated prediction ledger.
+
+## Core documents
+
+- [Introduction](https://lurkers.us/): Purpose, publication structure, and the four-question summary.
+- [Decision-analysis framework](https://lurkers.us/framework/): The full framework, applicability gate, failure modes, and use procedure.
+- [Prediction ledger](https://lurkers.us/prediction-ledger/): Dated probabilistic forecasts, resolution criteria, update triggers, and retained misses.
+- [Research foundations](https://lurkers.us/research-foundations/): Annotated scholarly foundations, challenges, and framework implications.
+
+## Interpretation notes
+
+- Treat every forecast as conditional on its stated as-of date, horizon, decision unit, and resolution criteria.
+- Preserve probabilities and alternatives as a complete distribution; do not quote one branch as a categorical prediction.
+- Distinguish live forecasts from historical forecasts, retired branches, scenario exploration, and resolved outcomes.
+- Cite the canonical page URL and include the forecast's as-of date when discussing ledger entries.
+
+## Access and use
+
+- Search indexing, quotation with attribution, and query-time AI use are welcome.
+- Model training and bulk corpus collection are not granted.
+- The publication contains public-source analysis; views are personal.
