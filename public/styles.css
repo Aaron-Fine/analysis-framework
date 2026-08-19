@@ -811,6 +811,12 @@ main {
   background: var(--sage-wash);
 }
 
+.state-success {
+  border: 1px solid var(--sage);
+  color: var(--forest-deep);
+  background: var(--sage-wash);
+}
+
 .state-update,
 .state-partial {
   color: var(--warning-ink);
@@ -846,6 +852,10 @@ main {
 
 .ledger-entry-current::before {
   background: var(--danger);
+}
+
+.ledger-entry-success::before {
+  background: var(--sage);
 }
 
 .ledger-entry h3 {
