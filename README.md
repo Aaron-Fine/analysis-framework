@@ -27,6 +27,9 @@ public/
 ├── framework/
 ├── prediction-ledger/
 ├── research-foundations/
+├── sitemap.xml
+├── robots.txt
+├── llms.txt
 ├── assets/
 ├── styles.css
 ├── theme.js
