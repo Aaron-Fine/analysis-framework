@@ -15,7 +15,8 @@
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
-        "name": "Four-Case Prediction Ledger",
+        "name": "The Meal Fights Back Prediction Ledger",
+        "dateModified": "2026-10-02",
         "url": "https://lurkers.us/prediction-ledger/",
         "description": "A dated prediction ledger with probabilistic forecasts, resolution criteria, and observable update triggers.",
         "author": {
@@ -52,7 +53,7 @@
 
     <main class="site-shell">
       <section class="page-intro ledger-intro">
-        <span class="status">Live ledger · Updated 9 September 2026 · baseline reset 2 August 2026</span>
+        <span class="status">Live ledger · Greenland reviewed 2 October 2026 · baseline reset 2 August 2026</span>
         <p class="eyebrow">Prediction ledger · Five live forecasts and one resolved case</p>
         <h1>A forecast record, not a victory lap.</h1>
         <p class="lede">
@@ -73,19 +74,38 @@
           </div>
 
           <p>
-            <strong>9 September review scope:</strong> Iran receives a full update;
-            tariffs receive a contextual note. A limited trigger scan did not establish
-            a qualifying new Greenland arrangement or implemented posture change;
-            both Greenland distributions are carried forward. Administrative-state
-            probabilities are also carried forward pending concrete implementation or
-            litigation evidence. These are not comprehensive findings that no change
-            occurred. The resolved water case and historical Iran record are retained.
+            <strong>2 October review scope:</strong> Greenland receives an evidence
+            update after the 22 September signing. The negotiated-access thesis
+            is confirmed at signature; the governing-arrangement forecast still
+            requires legal effectiveness and the year-end cutoff. The posture
+            forecast is updated separately. Iran, tariffs, and administrative-state
+            entries retain their displayed as-of dates and probabilities; they
+            were not refreshed in this review. The resolved water case and
+            historical Iran record are retained.
+          </p>
+
+          <h2 id="scoring">How to read confirmations and scores</h2>
+          <p>
+            A thesis confirmation records support for an interpretation. A scored
+            resolution requires the forecast's original outcome, cutoff, and
+            source tests. Event forecasts may close when an absorbing event
+            occurs; deadline forecasts remain open until the cutoff. A confirmed
+            broad direction does not make every detailed branch a hit.
+          </p>
+          <p>
+            This ledger uses the unnormalized multiclass Brier loss:
+            <strong>sum of (forecast probability − observed indicator)²</strong>
+            across all branches, with probabilities on a 0–1 scale. Lower is
+            better; the range is 0–2. Preserve both initial and updated forecasts.
+            Compare scores with a baseline on the same question and cutoff;
+            raw scores across different branch sets and horizons do not establish
+            added skill. Missing historical baselines will not be reconstructed.
           </p>
 
           <h2 id="case-index">Current ledger</h2>
           <div class="case-index">
             <a href="#iran"><strong>Iran</strong><span>War, bargaining, and returned costs</span></a>
-            <a href="#greenland-arrangement"><strong>Greenland · arrangement</strong><span>Legal access, sovereignty, and negotiated form</span></a>
+            <a href="#greenland-arrangement"><strong>Greenland · arrangement</strong><span>Access thesis confirmed; formal resolution pending</span></a>
             <a href="#greenland-posture"><strong>Greenland · posture</strong><span>Agreement versus implemented capability</span></a>
             <a href="#tariffs"><strong>Tariffs</strong><span>Fixed direction, fungible instruments</span></a>
             <a href="#administrative-state"><strong>Administrative state</strong><span>Personal control becoming durable machinery</span></a>
@@ -229,11 +249,11 @@
           <section class="case-group" id="greenland-arrangement">
             <div class="case-heading">
               <div>
-                <span class="ledger-state state-forecast">Live forecast</span>
+                <span class="ledger-state state-partial">Thesis confirmed · formal forecast open</span>
                 <h2>Greenland governing arrangement</h2>
               </div>
               <dl class="case-meta">
-                <div><dt>As of</dt><dd>18 August 2026</dd></div>
+                <div><dt>Evidence reviewed</dt><dd>2 October 2026; last pre-signature forecast 18 August</dd></div>
                 <div><dt>Horizon</dt><dd>31 December 2026 · medium</dd></div>
                 <div><dt>Decision unit</dt><dd>U.S., Danish, and Greenlandic political leadership; status changes also require the competent legislatures and, where applicable, Greenlandic voters</dd></div>
               </dl>
@@ -243,10 +263,12 @@
               <strong>Question:</strong> As of 23:59 UTC on the resolution date,
               what is the highest-order publicly verifiable arrangement concerning
               U.S. defense access or U.S. jurisdiction in Greenland that has been
-              jointly adopted and remains operative? Existing authorities make a
-              site-specific military arrangement easier than a new treaty, while
-              the broader political talks could still produce a visibly trilateral package.
+              jointly adopted and remains operative? The original question and
+              rules remain in force. The signed agreement supports negotiated
+              defense access without a sovereignty transfer; signature alone
+              does not complete the legal-effectiveness test.
             </p>
+            <p class="eyebrow">18 August forecast · retained pre-signature probabilities, not an outcome vector</p>
             <div class="forecast-grid four-column">
               <article><strong>1%</strong><span>Island-wide sovereignty, territorial-status, or free-association change</span></article>
               <article><strong>4%</strong><span>Bounded transfer of sovereignty, territorial title, or exclusive public-law jurisdiction</span></article>
@@ -260,6 +282,73 @@
               <p><strong>Dominant · Commitment:</strong> ownership rhetoric, technical talks, site surveys, and NATO exercises are not equivalent to an adopted legal instrument.</p>
               <p><strong>Supporting · Ends:</strong> missile warning, Golden Dome integration, North Atlantic surveillance, and denial of adversary footholds can largely be pursued without a sovereignty transfer.</p>
             </div>
+
+            <h3>2 October assessment: continuity with substantive additions</h3>
+            <p>
+              The parties signed a general amendment on 22 September. Calling
+              it only a restatement misses changes to the governing package;
+              calling it acquisition misses its preservation of Danish
+              sovereignty and Greenlandic self-determination.
+            </p>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Issue</th><th>Continuity or change</th></tr></thead>
+                <tbody>
+                  <tr><td>Defense access</td><td>The 1951 framework already permitted agreed defense areas and extensive U.S. operating rights without transferring sovereignty.</td></tr>
+                  <tr><td>Named sites</td><td>The new text expressly provides for Pituffik expansion and defense areas at Narsarsuaq and Mestersvig, with details still to be agreed.</td></tr>
+                  <tr><td>Procedures and access</td><td>It adds escalation after 90 days of unresolved consultations, accelerated review of unmanned installations, and explicit undersea access.</td></tr>
+                  <tr><td>Third parties</td><td>It restricts non-NATO military presence and control, significant influence, or threatening information access in sensitive sectors by investors outside NATO, NATO partners, or the EU, subject to agreed exceptions.</td></tr>
+                  <tr><td>Future status</td><td>It provides for continuity of defense obligations and NATO alignment if Greenland becomes independent.</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="note">
+              <strong>Confirmed thesis; exact forecast still open.</strong>
+              The signed outcome supports the access-without-annexation
+              interpretation. Under the existing classification it fits the
+              <strong>new top-level framework</strong> branch, originally assigned
+              <strong>28%</strong>, rather than the 31% site-specific branch or
+              the leading 36% no-new-arrangement branch. This is support for the
+              broad direction, not a leading-branch success or proof of a unique
+              personalist mechanism. Ordinary allied bargaining also predicts
+              an access agreement.
+            </div>
+            <p>
+              <strong>Formal resolution:</strong> Article XII requires a
+              diplomatic note following the necessary parliamentary procedures.
+              The review checked the published agreement, the Danish signing
+              release, and indexed official parliamentary material; it did not
+              establish that the entry-into-force note had been delivered. That
+              limited finding is not proof of non-ratification. Even after entry
+              into force, the original question asks which arrangement remains
+              operative on 31 December. No Brier score or 100% outcome vector is
+              assigned now. Watch legal effectiveness, replacement, or a
+              higher-precedence arrangement through the original deadline.
+            </p>
+            <p class="source-line">
+              <a href="https://www.whitehouse.gov/briefings-statements/2026/09/agreement-between-the-government-of-the-united-states-of-america-and-the-government-of-the-kingdom-of-denmark-together-with-the-government-of-greenland-to-amend-and-supplement-the-agreement-of-27-apri/">22 September agreement: preamble and Articles IV–VI, IX–XII</a><br>
+              <a href="https://stm.dk/en/press/press-releases/agreement-between-greenland-denmark-and-the-united-states/">Danish Prime Minister's Office: joint signing and parliamentary condition</a><br>
+              <a href="https://commonslibrary.parliament.uk/research-briefings/cbp-12214/">House of Commons Library, 29 September: comparison with the earlier defense arrangements</a>
+            </p>
+            <details class="history-details">
+              <summary>Greenland arrangement update history</summary>
+              <div class="ledger-timeline">
+                <section class="ledger-entry">
+                  <div class="ledger-date">18 August 2026</div>
+                  <h3>1 / 4 / 28 / 31 / 36</h3>
+                  <p>The pre-signature distribution and original year-end resolution rules shown here.</p>
+                </section>
+                <section class="ledger-entry">
+                  <div class="ledger-date">9 September 2026</div>
+                  <p>A limited trigger scan did not establish a qualifying new arrangement or posture change; both distributions were carried forward.</p>
+                </section>
+                <section class="ledger-entry ledger-entry-current">
+                  <div class="ledger-date">2 October 2026</div>
+                  <span class="ledger-state state-partial">Thesis confirmed · formal forecast open</span>
+                  <p>The 22 September signature supports the access thesis. The original governing-arrangement distribution is retained for later scoring; the separate posture forecast is updated.</p>
+                </section>
+              </div>
+            </details>
 
             <h3>Resolution rules</h3>
             <ul>
@@ -287,7 +376,7 @@
                 <h2>Greenland implemented U.S. posture</h2>
               </div>
               <dl class="case-meta">
-                <div><dt>As of</dt><dd>18 August 2026</dd></div>
+                <div><dt>As of</dt><dd>2 October 2026; operational baseline 18 August</dd></div>
                 <div><dt>Horizon</dt><dd>30 June 2027 · medium/long</dd></div>
                 <div><dt>Decision unit</dt><dd>U.S. Defense and State Departments plus Congress; Denmark holds defense and treaty authority, while Greenland controls important local implementation and its cooperation is politically indispensable</dd></div>
               </dl>
@@ -301,10 +390,10 @@
               actually begins and remains active or recurring at the deadline.
             </p>
             <div class="forecast-grid four-column">
-              <article><strong>45%</strong><span>No material durable increase beyond the existing Pituffik mission</span></article>
-              <article><strong>30%</strong><span>Material expansion at Pituffik only</span></article>
-              <article><strong>20%</strong><span>Persistent or recurring U.S. use of one additional named Greenland site</span></article>
-              <article><strong>5%</strong><span>Persistent or recurring U.S. use of two or more additional named sites</span></article>
+              <article><strong>30%</strong><span>No material durable increase beyond the existing Pituffik mission</span></article>
+              <article><strong>25%</strong><span>Material expansion at Pituffik only</span></article>
+              <article><strong>30%</strong><span>Persistent or recurring U.S. use of one additional named Greenland site</span></article>
+              <article><strong>15%</strong><span>Persistent or recurring U.S. use of two or more additional named sites</span></article>
             </div>
 
             <div class="lens-read">
@@ -312,6 +401,21 @@
               <p><strong>Dominant · Authority:</strong> new-site access requires Danish and Greenlandic cooperation, while durable construction and operations also require U.S. authorization and funding.</p>
               <p><strong>Supporting · Feedback:</strong> Arctic logistics, environmental and land-use constraints, local benefits, construction seasons, and NATO alternatives determine operational affordability.</p>
             </div>
+
+            <div class="note">
+              <strong>2 October update.</strong> The named-site provision triggers
+              a review: <strong>45 / 30 / 20 / 5 → 30 / 25 / 30 / 15</strong>
+              (−15 / −5 / +10 / +10 percentage points). The signed route to two
+              additional sites raises the chance of use beyond Pituffik. These
+              are judgmental estimates, not treaty-derived frequencies. Details,
+              legal effectiveness, funding, and physical performance remain
+              uncertain; the text supplies no completion schedule. The document
+              alone satisfies none of the operational resolution tests below.
+              The highest branch therefore remains a minority probability.
+            </div>
+            <p class="source-line">
+              <a href="https://stm.dk/media/fx1h4fqx/aftale_eng.pdf">Signed agreement, Article IV: named defense areas and mutually agreed implementation details</a>
+            </p>
 
             <h3>Resolution rules</h3>
             <ul>
@@ -584,6 +688,7 @@
         <aside class="sidebar">
           <h2>Ledger cases</h2>
           <ul>
+            <li><a href="#scoring">Confirmations and scores</a></li>
             <li><a href="#iran">Iran</a></li>
             <li><a href="#greenland-arrangement">Greenland arrangement</a></li>
             <li><a href="#greenland-posture">Greenland posture</a></li>

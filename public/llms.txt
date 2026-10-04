@@ -15,6 +15,9 @@
 - Preserve probabilities and alternatives as a complete distribution; do not quote one branch as a categorical prediction.
 - Distinguish live forecasts from historical forecasts, retired branches, scenario exploration, and resolved outcomes.
 - Cite the canonical page URL and include the forecast's as-of date when discussing ledger entries.
+- Framework 0.3 makes parsimony explicit: begin with a baseline and retain only mechanisms with an incremental contribution; do not treat the four lenses as independent probability weights.
+- Greenland's negotiated-access thesis is confirmed by the 22 September 2026 signature. The governing-arrangement forecast remains open under its original legal-effectiveness and 31 December deadline tests; its retained 18 August probabilities are not a resolved outcome vector.
+- The 2 October research and Greenland review does not refresh the other cases' displayed as-of dates.
 
 ## Access and use
 

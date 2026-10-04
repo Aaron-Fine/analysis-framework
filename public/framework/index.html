@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="A four-question framework for analyzing fixed and negotiable ends, reversible and committed action, personal and institutional authority, and feedback."
+      content="A parsimonious decision-analysis framework: begin with a baseline, then test ends, commitment, authority, and feedback only where they add value."
     >
     <meta name="theme-color" content="#274f43">
     <title>The Framework · The Meal Fights Back</title>
@@ -16,6 +16,8 @@
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "The Meal Fights Back Decision-Analysis Framework",
+        "version": "0.3",
+        "dateModified": "2026-10-02",
         "url": "https://lurkers.us/framework/",
         "description": "A four-question framework for analyzing ends, commitments, authority, and feedback.",
         "author": {
@@ -52,7 +54,7 @@
 
     <main class="site-shell">
       <section class="page-intro">
-        <p class="eyebrow">Working framework · Version 0.2 · 2 August 2026</p>
+        <p class="eyebrow">Working framework · Version 0.3 · 2 October 2026</p>
         <h1>Four questions for a personalized bargaining system.</h1>
         <p class="lede">
           A phase- and horizon-sensitive method for understanding government
@@ -69,11 +71,32 @@
           </blockquote>
 
           <div class="note ledger-method">
-            <strong>Applicability gate.</strong> Begin with the ordinary
-            presidential, partisan, bureaucratic, or strategic baseline. Use a
-            lens only when it changes an ex-ante probability or exposes a
-            falsifier. Mark unused lenses inactive rather than filling every slot.
+            <strong>Parsimony first.</strong> Begin with the ordinary
+            presidential, partisan, bureaucratic, or strategic baseline. Add a
+            mechanism only when evidence shows what it explains or predicts
+            beyond that baseline. Mark unused lenses inactive.
           </div>
+
+          <h2 id="parsimony">Use the fewest assumptions that do the work</h2>
+          <p>
+            Parsimony means limiting unsupported assumptions and adjustable
+            explanations. It does not mean choosing the shortest story or
+            ignoring a relevant actor, constraint, or uncomfortable fact. The
+            four lenses are optional questions, not four explanations that every
+            case must contain.
+          </p>
+          <ol class="steps">
+            <li><strong>Write the baseline first.</strong> Name the reference class or ordinary institutional explanation, its limits, and the outcome it predicts.</li>
+            <li><strong>Make each addition earn its place.</strong> Name the actor, mechanism, evidence, and observation that would distinguish it from the baseline. For a forecast, record the baseline distribution and the revised distribution before the outcome.</li>
+            <li><strong>Avoid counting evidence twice.</strong> One order may bear on several lenses; several reports may repeat one source. Neither creates independent corroboration.</li>
+            <li><strong>Stop when the question is answered.</strong> Remove an assumption if doing so leaves the forecast or discriminating test unchanged. If rival explanations remain indistinguishable, retain the uncertainty.</li>
+          </ol>
+          <p>
+            A special explanation earns provisional use when it changes a
+            probability or supplies a discriminating test. It earns continued
+            use through prospective performance or stronger mechanism evidence.
+            A correct outcome by itself cannot show which explanation caused it.
+          </p>
 
           <h2 id="four-lenses">The four lenses</h2>
           <p>
@@ -166,6 +189,13 @@
           </div>
 
           <h2 id="commitment-ladder">The commitment ladder</h2>
+          <p>
+            This is an evidence checklist, not an inevitable sequence or a
+            numerical scale. Record separately what has been announced,
+            authorized, funded, implemented, and sustained. A public promise can
+            create a cost of retreat before resources move; deployed resources
+            can still be withdrawn. Name who can impose the reversal cost.
+          </p>
           <ol class="steps commitment-steps">
             <li><strong>Rhetoric or trial balloon.</strong> A signal exists; future options remain open.</li>
             <li><strong>Formal direction.</strong> An attributable order or announced policy narrows ambiguity.</li>
@@ -197,13 +227,36 @@
           <ul class="feature-list forecast-template">
             <li><strong>Resolvable question</strong>One observable outcome and an exact deadline.</li>
             <li><strong>Decision unit</strong>Leader, small group, agency, legislature, or multiple actors.</li>
-            <li><strong>Baseline</strong>What the outside view predicts without a Trump-specific explanation.</li>
-            <li><strong>Probability</strong>Mutually exclusive outcomes rather than “likely” or “unlikely.”</li>
-            <li><strong>Active lenses</strong>Only lenses that materially change the forecast.</li>
+            <li><strong>Baseline</strong>Reference class, source, and a probability distribution before adding case-specific mechanisms; label judgmental estimates.</li>
+            <li><strong>Probability</strong>Mutually exclusive, collectively exhaustive outcomes totaling 100%, with precedence and boundary rules.</li>
+            <li><strong>Active lenses</strong>Mechanism, evidence, falsifier, and incremental contribution; do not add lens weights as if they were independent probabilities.</li>
             <li><strong>Counterparty</strong>Its capability, red line, internal politics, and likely response.</li>
-            <li><strong>Crux</strong>An observable that would move probability by at least ten points.</li>
-            <li><strong>Resolution</strong>Source, yes/no criteria, update history, and eventual score.</li>
+            <li><strong>Crux</strong>An observable expected to move probability materially; ten points is a review flag, not a ban on smaller justified updates.</li>
+            <li><strong>Resolution</strong>Source, exact cutoff and timezone, event-versus-deadline test, precedence, update history, and eventual score.</li>
           </ul>
+
+          <h2 id="validation">Separate explanation, prediction, and validation</h2>
+          <p>
+            An explanation needs evidence for its causal mechanism. A prediction
+            needs a dated probability and a resolvable outcome. Validation needs
+            repeated comparison with a baseline on the same questions and
+            information cutoffs. Success at one task does not establish success
+            at the others.
+          </p>
+          <p>
+            Preserve the initial forecast and every update. Score only against
+            the original criteria: a signed agreement, entry into force, and
+            implemented capability are different milestones. Close event
+            questions when their absorbing condition is met; keep deadline
+            questions open until their cutoff. Treat narrative confirmations as
+            such, rather than retroactively creating a scored prediction.
+          </p>
+          <p>
+            Compare baseline and framework Brier scores on matched forecasts.
+            Do not reconstruct missing baseline probabilities after an outcome.
+            The current ledger is too small and too dependent across related
+            cases to establish calibration or added predictive value.
+          </p>
 
           <h2 id="audits">Mandatory audits</h2>
           <p>
@@ -231,10 +284,12 @@
             <li><strong>Universal bluff:</strong> concrete execution evidence overrides a prior for bargaining theater.</li>
             <li><strong>Leader-only analysis:</strong> identify counterpart agency and exogenous shocks.</li>
             <li><strong>Slot filling:</strong> if a lens does not change the forecast, mark it inactive.</li>
+            <li><strong>False simplicity:</strong> fewer assumptions do not justify omitting a demonstrated constraint or counterparty.</li>
+            <li><strong>Outcome laundering:</strong> a broad thesis can be supported while a lower-probability detailed branch occurs; preserve both facts.</li>
           </ul>
 
           <div class="note">
-            Version 0.2 is a synthesis with a public scorecard, not a claim to a
+            Version 0.3 is a synthesis with a public scorecard, not a claim to a
             new general theory. Its value depends on whether the
             <a href="/prediction-ledger/">prediction ledger</a> produces
             discriminating forecasts and preserves failures.
@@ -244,10 +299,12 @@
         <aside class="sidebar">
           <h2>On this page</h2>
           <ul>
+            <li><a href="#parsimony">Parsimony and stopping rule</a></li>
             <li><a href="#four-lenses">Four lenses</a></li>
             <li><a href="#commitment-ladder">Commitment ladder</a></li>
             <li><a href="#horizons">Forecast horizons</a></li>
             <li><a href="#forecast-card">Forecast card</a></li>
+            <li><a href="#validation">Explanation and validation</a></li>
             <li><a href="#audits">Mandatory audits</a></li>
             <li><a href="#old-model">Old-model mapping</a></li>
             <li><a href="#failure-modes">Failure modes</a></li>
