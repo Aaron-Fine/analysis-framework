@@ -29,6 +29,7 @@ public/
 ├── framework/
 ├── prediction-ledger/
 ├── research-foundations/
+├── closeout/
 ├── sitemap.xml
 ├── robots.txt
 ├── llms.txt
@@ -39,12 +40,13 @@ public/
 └── _headers
 ```
 
-The active ledger covers Iran, two linked Greenland forecasts, the post-court
-tariff regime, and administrative-state restructuring. The resolved
-critical-water cyber forecast remains visible with its history and score.
-Greenland's access-without-annexation thesis is confirmed at signature; the
-formal governing-arrangement forecast remains open under its original
-legal-effectiveness and year-end tests. The research refresh distinguishes
-explanation, prediction, and prospective validation.
+**Closed 6 November 2026.** The experiment has ended and framework 0.3 is
+final. The ledger records two scored forecasts: water cyber, and Iran, which
+resolved to attrition on 31 October. Four forecasts were withdrawn unscored at
+closure, each with its last probabilities and dated closing evidence. The
+closeout page (`public/closeout/`) summarizes what the record supports: no
+demonstrated predictive skill, but explanatory value when signed and built
+diverge, when outcomes need several consents, and when coercion meets returned
+costs. See `docs/reviews/2026-11-06-closeout.md` for the closeout review.
 
 Public-source analysis and views are personal.

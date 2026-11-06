@@ -8,6 +8,7 @@
 - [Decision-analysis framework](https://lurkers.us/framework/): The full framework, applicability gate, failure modes, and use procedure.
 - [Prediction ledger](https://lurkers.us/prediction-ledger/): Dated probabilistic forecasts, resolution criteria, update triggers, and retained misses.
 - [Research foundations](https://lurkers.us/research-foundations/): Annotated scholarly foundations, challenges, and framework implications.
+- [Closeout](https://lurkers.us/closeout/): Final assessment (6 November 2026): what the ledger showed and when the framework adds explanatory power.
 
 ## Interpretation notes
 
@@ -16,8 +17,10 @@
 - Distinguish live forecasts from historical forecasts, retired branches, scenario exploration, and resolved outcomes.
 - Cite the canonical page URL and include the forecast's as-of date when discussing ledger entries.
 - Framework 0.3 makes parsimony explicit: begin with a baseline and retain only mechanisms with an incremental contribution; do not treat the four lenses as independent probability weights.
-- Greenland's negotiated-access thesis is confirmed by the 22 September 2026 signature. The governing-arrangement forecast remains open under its original legal-effectiveness and 31 December deadline tests; its retained 18 August probabilities are not a resolved outcome vector.
-- The 2 October research and Greenland review does not refresh the other cases' displayed as-of dates.
+- The experiment and ledger closed on 6 November 2026; framework 0.3 is final. Nothing will be updated or scored further.
+- Scored: water cyber (Brier 0.305) and Iran, resolved 31 October 2026 as prolonged regional attrition (Brier 0.256). Both were leading-branch hits on persistence outcomes; no matched baseline was recorded, so they do not demonstrate added skill.
+- Withdrawn unscored at closure: Greenland arrangement, Greenland posture, tariffs, administrative state. Their closing-status notes are evidence summaries, not outcome vectors.
+- The closeout concludes the framework is not demonstrably predictive but adds explanatory power for implementation gaps, multi-consent outcomes, and two-sided coercion.
 
 ## Access and use
 

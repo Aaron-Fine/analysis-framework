@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="A dated prediction ledger covering Iran, Greenland, tariffs, administrative-state restructuring, and a resolved water-cyber forecast."
+      content="The closed prediction ledger: two scored forecasts (water cyber and Iran), four forecasts withdrawn unscored at closure, and retained misses."
     >
     <meta name="theme-color" content="#274f43">
     <title>Prediction Ledger · The Meal Fights Back</title>
@@ -16,9 +16,9 @@
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "The Meal Fights Back Prediction Ledger",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-11-06",
         "url": "https://lurkers.us/prediction-ledger/",
-        "description": "A dated prediction ledger with probabilistic forecasts, resolution criteria, and observable update triggers.",
+        "description": "A closed prediction ledger with probabilistic forecasts, resolution criteria, scores, and the closeout record of forecasts withdrawn before their cutoffs.",
         "author": {
           "@type": "Person",
           "name": "Aaron Fine"
@@ -44,6 +44,7 @@
         <a href="/framework/">Framework</a>
         <a href="/prediction-ledger/" aria-current="page">Ledger</a>
         <a href="/research-foundations/">Research</a>
+        <a href="/closeout/">Closeout</a>
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark mode">
           <span class="theme-toggle-icon" aria-hidden="true"></span>
           <span class="theme-toggle-label">Dark</span>
@@ -53,13 +54,15 @@
 
     <main class="site-shell">
       <section class="page-intro ledger-intro">
-        <span class="status">Live ledger · Greenland reviewed 2 October 2026 · baseline reset 2 August 2026</span>
-        <p class="eyebrow">Prediction ledger · Five live forecasts and one resolved case</p>
+        <span class="status">Closed ledger · closed 6 November 2026 · no further updates</span>
+        <p class="eyebrow">Prediction ledger · Two scored forecasts and four withdrawn at closure</p>
         <h1>A forecast record, not a victory lap.</h1>
         <p class="lede">
-          Five active forecasts test the framework across Iran, Greenland,
-          tariffs, and administrative-state restructuring. The water-cyber
-          forecast is resolved and retained with its probability history and score.
+          The experiment has ended. Iran and water cyber resolved and are scored.
+          The two Greenland forecasts, tariffs, and administrative-state
+          restructuring were withdrawn unscored before their cutoffs, with
+          their last probabilities and closing evidence retained.
+          <a href="/closeout/">Read the closeout assessment</a>.
         </p>
       </section>
 
@@ -73,15 +76,25 @@
             forecast is not scored.
           </div>
 
+          <div class="note">
+            <strong>Closeout, 6 November 2026.</strong> The ledger is closed
+            because the experiment is being stopped, not because any remaining
+            question reached an outcome. Iran passed its 31 October cutoff and
+            resolves to its leading branch, attrition, with a Brier score of
+            0.256. The four forecasts still open were all withdrawn on the same
+            date, and that date was set by the decision to stop, not by evidence.
+            They are not scored. Each carries a dated closing-status note. Those
+            notes are evidence summaries, not outcome vectors, and where an
+            outcome now looks likely they say plainly whether the leading branch
+            would have hit. No probability was revised at closure. Closeout
+            evidence was gathered through a limited public-source search, and
+            negative findings are limited-search findings.
+          </div>
           <p>
-            <strong>2 October review scope:</strong> Greenland receives an evidence
-            update after the 22 September signing. The negotiated-access thesis
-            is confirmed at signature; the governing-arrangement forecast still
-            requires legal effectiveness and the year-end cutoff. The posture
-            forecast is updated separately. Iran, tariffs, and administrative-state
-            entries retain their displayed as-of dates and probabilities; they
-            were not refreshed in this review. The resolved water case and
-            historical Iran record are retained.
+            Earlier review scopes are retained in the case histories. The
+            2 October review updated Greenland only. Before closure, the
+            tariff and administrative-state probabilities were last set on
+            2 August, and Iran's on 9 September.
           </p>
 
           <h2 id="scoring">How to read confirmations and scores</h2>
@@ -104,23 +117,49 @@
 
           <h2 id="case-index">Current ledger</h2>
           <div class="case-index">
-            <a href="#iran"><strong>Iran</strong><span>War, bargaining, and returned costs</span></a>
-            <a href="#greenland-arrangement"><strong>Greenland · arrangement</strong><span>Access thesis confirmed; formal resolution pending</span></a>
-            <a href="#greenland-posture"><strong>Greenland · posture</strong><span>Agreement versus implemented capability</span></a>
-            <a href="#tariffs"><strong>Tariffs</strong><span>Fixed direction, fungible instruments</span></a>
-            <a href="#administrative-state"><strong>Administrative state</strong><span>Personal control becoming durable machinery</span></a>
+            <a href="#final-scorecard"><strong>Final scorecard</strong><span>Every forecast's closing status in one table</span></a>
+            <a href="#iran"><strong>Iran · resolved</strong><span>Leading branch (attrition) observed; Brier 0.256</span></a>
+            <a href="#greenland-arrangement"><strong>Greenland · arrangement · withdrawn</strong><span>Access thesis confirmed; formal question unscored</span></a>
+            <a href="#greenland-posture"><strong>Greenland · posture · withdrawn</strong><span>Signed sites, no fielded capability yet</span></a>
+            <a href="#tariffs"><strong>Tariffs · withdrawn</strong><span>Direction held; coverage measure undefined</span></a>
+            <a href="#administrative-state"><strong>Administrative state · withdrawn</strong><span>Authority embedded; capacity test undefined</span></a>
             <a href="#water"><strong>Water cyber · resolved</strong><span>Successful first-outcome forecast, now retired</span></a>
           </div>
+
+          <h2 id="final-scorecard">Final scorecard</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Forecast</th><th>Closing status</th><th>Leading branch</th><th>Score</th></tr></thead>
+              <tbody>
+                <tr><td>Water cyber (16 Aug 2026)</td><td>Resolved</td><td>55%: no qualifying attribution or escalation. Observed.</td><td>0.305</td></tr>
+                <tr><td>Iran (31 Oct 2026)</td><td>Resolved</td><td>55%: prolonged regional attrition. Observed.</td><td>0.256</td></tr>
+                <tr><td>Greenland arrangement (31 Dec 2026)</td><td>Withdrawn unscored</td><td>36%: no new arrangement. A higher branch (28%: new top-level framework) is now on course to qualify.</td><td>None</td></tr>
+                <tr><td>Greenland posture (30 Jun 2027)</td><td>Withdrawn unscored</td><td>30 / 30 tie. No operational test met at closure.</td><td>None</td></tr>
+                <tr><td>Tariffs (20 Jan 2027)</td><td>Withdrawn unscored</td><td>50%: broad floor. Classification depends on an undefined coverage denominator.</td><td>None</td></tr>
+                <tr><td>Administrative state (20 Jan 2028)</td><td>Withdrawn unscored</td><td>35%: durable centralization. Its separation from the degradation branch depends on an undefined capacity test.</td><td>None</td></tr>
+                <tr><td>Historical Iran, broad escalation (31 Aug 2026)</td><td>Retired miss</td><td>Assigned 7%. It became the July baseline.</td><td>Not scored</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Brier scores are unnormalized multiclass losses: range 0–2, lower is
+            better. Both scored hits were outcomes in which the condition at
+            forecast time persisted. No matched baseline distribution was recorded
+            for either one, so neither score can show that the framework added
+            skill over an ordinary status-quo forecast. The
+            <a href="/closeout/">closeout assessment</a> discusses what the
+            record does and does not support.
+          </p>
 
           <section class="case-group" id="iran">
             <div class="case-heading">
               <div>
-                <span class="ledger-state state-forecast">Live forecast</span>
+                <span class="ledger-state state-success">Resolved · leading branch</span>
                 <h2>Iran conflict and negotiations</h2>
               </div>
               <dl class="case-meta">
-                <div><dt>As of</dt><dd>9 September 2026</dd></div>
-                <div><dt>Horizon</dt><dd>31 October 2026 · medium/long</dd></div>
+                <div><dt>Last forecast</dt><dd>9 September 2026</dd></div>
+                <div><dt>Resolved</dt><dd>31 October 2026, 23:59 UTC · reviewed 6 November</dd></div>
                 <div><dt>Decision unit</dt><dd>Trump and a small U.S. negotiating group; Iranian political leadership and the IRGC; implementation requires multiple states</dd></div>
               </dl>
             </div>
@@ -132,8 +171,9 @@
               tankers, continued disruption at Hormuz, and Saudi–Houthi fighting
               have not produced a qualifying settlement. Broader regional conflict
               is the established starting condition; this forecast concerns its
-              outcome by 31 October and remains unresolved.
+              outcome by 31 October. <strong>Resolved: prolonged regional attrition.</strong>
             </p>
+            <p class="eyebrow">Last published forecast · 9 September 2026</p>
             <div class="forecast-grid four-column">
               <article><strong>55%</strong><span>Prolonged regional attrition</span></article>
               <article><strong>15%</strong><span>Armed armistice, frozen conflict, or reciprocal settlement</span></article>
@@ -149,6 +189,34 @@
               <p><strong>Supporting · Authority:</strong> a durable arrangement depends on multiple governments and armed organizations; a U.S.–Iran understanding alone may not settle every regional theater.</p>
               <p><strong>Supporting · Ends:</strong> preventing an Iranian nuclear capability and reopening Hormuz remain the assessed U.S. priorities. Those priorities are inferred; demonstrated military action does not establish agreement on settlement terms.</p>
             </div>
+
+            <h3>31 October resolution</h3>
+            <ul>
+              <li><strong>Regime fracture: not met.</strong> The review found no report that Tehran lost nationwide command of the regular forces or the IRGC, or that a competing authority held territory. The IRGC continued coordinated maritime operations and set negotiating conditions through October.</li>
+              <li><strong>Major escalation: not met.</strong> The review found no foreign ground campaign or occupation, no Iranian occupation of foreign territory, no nuclear test, use, or confirmed assembly, and no major radiological release. U.S.–Israeli strike planning for after the 3 November midterms was reported, but planning is not an absorbing event.</li>
+              <li><strong>Settlement, U.S.- or Iran-favored: not met.</strong> No agreement was operative at the cutoff. On 31 October, Iranian negotiators were meeting Qatari mediators in Doha and reviewing a U.S. proposal. On 3–4 November, reporting still described no ceasefire and the two sides as far apart.</li>
+              <li><strong>Armistice or frozen conflict: not met.</strong> No agreement existed, and the 30 days before the cutoff were not strike-free. Ships were hit by mines in Hormuz in mid-October, at least 12 attacks were reported in the week to 16 October, a tanker was mined on 29 October, and Houthi–Saudi missile and air exchanges took place on 10–13 and 25 October. A pause in acknowledged U.S. strikes on Iranian territory before the midterms does not create a stable de facto separation.</li>
+              <li><strong>Attrition: met.</strong> Recurring maritime attacks and regional strikes continued without a qualifying settlement. October flows through Hormuz stayed far below prewar levels and swung sharply from week to week.</li>
+            </ul>
+            <div class="note">
+              <strong>Score.</strong> The last published forecast,
+              55 / 15 / 6 / 15 / 6 / 3 on 9 September, receives an unnormalized
+              multiclass Brier score of <strong>0.256</strong>. For reference, the same
+              outcome scores 0.347 against the 18 August forecast and 0.563 against
+              the 2 August public baseline. Each update moved toward the observed
+              outcome. The comparison is internal to the framework's own forecasts,
+              not a matched ordinary baseline, and it does not show added skill.
+              Attrition was already the condition in place when the forecasts were
+              made, so the hit is a persistence call.
+            </div>
+            <p class="source-line">
+              <a href="https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again">Al Jazeera, 14 October: attacks rise and Hormuz oil flows fall again (Kpler data)</a><br>
+              <a href="https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels">Al Jazeera, 17 October: mine strikes, and both governments claim control of the strait</a><br>
+              <a href="https://www.cnbc.com/2026/10/12/us-iran-war-trump-hormuz-saudi.html">CNBC, 12 October: Houthi strike on Riyadh and Saudi retaliation</a><br>
+              <a href="https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html">CNBC, 25 October: Saudi interceptions of Houthi missiles and drones</a><br>
+              <a href="https://www.criticalthreats.org/analysis/iran-update-october-31-2026">ISW/CTP Iran Update, 31 October: tanker mining and the status of the U.S. proposal</a><br>
+              <a href="https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us">Al Jazeera, 2 November: no ceasefire agreement; Iran's preconditions</a>
+            </p>
 
             <h3>Resolution and update triggers</h3>
             <ul>
@@ -215,11 +283,17 @@
                   <h3>47 / 18 / 8 / 13 / 9 / 5</h3>
                   <p>The missed deadline and near-absent tracked commodity-vessel traffic outweigh conflicting descriptions of the backchannel; the 18 August check was confirmatory and did not produce a second move.</p>
                 </section>
-                <section class="ledger-entry ledger-entry-current">
+                <section class="ledger-entry">
                   <div class="ledger-date">9 September 2026</div>
-                  <span class="ledger-state state-update">Current update</span>
+                  <span class="ledger-state state-update">Final update</span>
                   <h3>55 / 15 / 6 / 15 / 6 / 3</h3>
                   <p>Changes from 18 August: +8 / −3 / −2 / +2 / −3 / −2 percentage points. Changes from the 2 August baseline: +21 / −14 / −11 / +6 / 0 / −2. Repeated coercion, persistent shipping disruption, and a shorter remaining window favor attrition. Categories, precedence, and the October 31 horizon are retained.</p>
+                </section>
+                <section class="ledger-entry ledger-entry-current ledger-entry-success">
+                  <div class="ledger-date">31 October 2026</div>
+                  <span class="ledger-state state-success">Resolved · leading branch</span>
+                  <h3>Prolonged regional attrition · Brier 0.256</h3>
+                  <p>No settlement, armistice, absorbing escalation, or command fracture was found at the cutoff. Reviewed 6 November.</p>
                 </section>
               </div>
               <h3>18 August rationale and sources retained</h3>
@@ -249,12 +323,12 @@
           <section class="case-group" id="greenland-arrangement">
             <div class="case-heading">
               <div>
-                <span class="ledger-state state-partial">Thesis confirmed · formal forecast open</span>
+                <span class="ledger-state state-context">Withdrawn unscored · thesis confirmed</span>
                 <h2>Greenland governing arrangement</h2>
               </div>
               <dl class="case-meta">
-                <div><dt>Evidence reviewed</dt><dd>2 October 2026; last pre-signature forecast 18 August</dd></div>
-                <div><dt>Horizon</dt><dd>31 December 2026 · medium</dd></div>
+                <div><dt>Evidence reviewed</dt><dd>6 November 2026; last forecast 18 August</dd></div>
+                <div><dt>Horizon</dt><dd>31 December 2026 · withdrawn 6 November</dd></div>
                 <div><dt>Decision unit</dt><dd>U.S., Danish, and Greenlandic political leadership; status changes also require the competent legislatures and, where applicable, Greenlandic voters</dd></div>
               </dl>
             </div>
@@ -313,8 +387,32 @@
               personalist mechanism. Ordinary allied bargaining also predicts
               an access agreement.
             </div>
+            <div class="note">
+              <strong>Closing status, 6 November · not scored.</strong>
+              Greenland's parliament, Inatsisartut, approved the agreement on
+              3 November: 16 for, none against, 7 blank. Naleraq abstained and
+              called for a referendum. Denmark's Foreign Minister tabled the
+              agreement in the Folketing as a parliamentary resolution, with a
+              first reading set for 12 November. A final vote has been reported
+              for about 19 November, but that date is unconfirmed. On the U.S.
+              side the agreement is reported as an executive agreement. No
+              diplomatic note under Article XII had been reported, so the
+              agreement was not in force at closure. If the Folketing approves it
+              and the note is exchanged before 31 December, the question resolves
+              to the 28% new-top-level-framework branch. That outcome would score
+              0.746 against the 18 August forecast, and the 36% leading branch
+              would have missed. That conditional figure is recorded here so the
+              withdrawal does not hide a likely miss. It is not entered as a score.
+            </div>
+            <p class="source-line">
+              <a href="https://www.pbs.org/newshour/world/greenland-approves-trilateral-deal-with-denmark-and-u-s-following-pressure-from-trump">PBS, 3 November: Greenland approves the trilateral deal</a><br>
+              <a href="https://www.sermitsiaq.ag/samfund/forsvarsaftalen-med-usa-er-vedtaget-i-inatsisartut/2326415">Sermitsiaq: the defense agreement is adopted in Inatsisartut</a><br>
+              <a href="https://www.sermitsiaq.ag/samfund/folketinget-har-sat-amerikansk-forsvarsaftale-pa-dagsordenen/2438921">Sermitsiaq: the Folketing schedules the agreement</a><br>
+              <a href="https://tidende.dk/ind-og-udland/erhverv-politik/groenlands-parlament-stemmer-ja-til-usa-aftale/408552">Tidende: entry into force only after both parliaments adopt it</a><br>
+              <a href="https://www.kristeligt-dagblad.dk/danmark/groenlandsk-oppositionsparti-vil-have-usa-aftale-til-folkeafstemning">Kristeligt Dagblad: Naleraq seeks a referendum</a>
+            </p>
             <p>
-              <strong>Formal resolution:</strong> Article XII requires a
+              <strong>Formal resolution (2 October text, retained):</strong> Article XII requires a
               diplomatic note following the necessary parliamentary procedures.
               The review checked the published agreement, the Danish signing
               release, and indexed official parliamentary material; it did not
@@ -342,10 +440,15 @@
                   <div class="ledger-date">9 September 2026</div>
                   <p>A limited trigger scan did not establish a qualifying new arrangement or posture change; both distributions were carried forward.</p>
                 </section>
-                <section class="ledger-entry ledger-entry-current">
+                <section class="ledger-entry">
                   <div class="ledger-date">2 October 2026</div>
                   <span class="ledger-state state-partial">Thesis confirmed · formal forecast open</span>
                   <p>The 22 September signature supports the access thesis. The original governing-arrangement distribution is retained for later scoring; the separate posture forecast is updated.</p>
+                </section>
+                <section class="ledger-entry ledger-entry-current">
+                  <div class="ledger-date">6 November 2026</div>
+                  <span class="ledger-state state-context">Withdrawn unscored</span>
+                  <p>Withdrawn at ledger closure. Inatsisartut has approved; the Folketing vote and diplomatic note remain pending. If the agreement takes effect as currently expected, the leading branch would miss (conditional Brier 0.746, not recorded).</p>
                 </section>
               </div>
             </details>
@@ -372,12 +475,12 @@
           <section class="case-group" id="greenland-posture">
             <div class="case-heading">
               <div>
-                <span class="ledger-state state-forecast">Live forecast</span>
+                <span class="ledger-state state-context">Withdrawn unscored</span>
                 <h2>Greenland implemented U.S. posture</h2>
               </div>
               <dl class="case-meta">
-                <div><dt>As of</dt><dd>2 October 2026; operational baseline 18 August</dd></div>
-                <div><dt>Horizon</dt><dd>30 June 2027 · medium/long</dd></div>
+                <div><dt>Last forecast</dt><dd>2 October 2026; operational baseline 18 August</dd></div>
+                <div><dt>Horizon</dt><dd>30 June 2027 · withdrawn 6 November 2026</dd></div>
                 <div><dt>Decision unit</dt><dd>U.S. Defense and State Departments plus Congress; Denmark holds defense and treaty authority, while Greenland controls important local implementation and its cooperation is politically indispensable</dd></div>
               </dl>
             </div>
@@ -416,6 +519,26 @@
             <p class="source-line">
               <a href="https://stm.dk/media/fx1h4fqx/aftale_eng.pdf">Signed agreement, Article IV: named defense areas and mutually agreed implementation details</a>
             </p>
+            <div class="note">
+              <strong>Closing status, 6 November · not scored.</strong> None of
+              the operational tests below had been met. In mid-September a U.S.
+              Navy Seabee team carried out a technical survey at Narsarsuaq.
+              Surveys are excluded. On 20 October a senior Pentagon official
+              described a "planning cycle" and said initial capability is hoped
+              for "by next year." As of about 10 October, reporting found no
+              solicitation or award for Narsarsuaq or Mestersvig. The review found
+              no new Pituffik mission capability fielded since the baseline, no
+              published recurring deployment schedule, and no withdrawal of
+              cooperation. More than seven months of the horizon remained, so
+              the forecast is withdrawn rather than classified. The gap between
+              the signed text and fielded capability is the distinction this
+              question was built to keep.
+            </div>
+            <p class="source-line">
+              <a href="https://www.washingtontimes.com/news/2026/oct/20/pentagon-official-says-future-military-bases-designed-mission/">Washington Times, 20 October: Pentagon official on planning and hoped-for initial capability</a><br>
+              <a href="https://www.military.com/key-details-still-unresolved-us-expands-greenland-military-defense-sites">Military.com: key details unresolved; no solicitations or awards found</a><br>
+              <a href="https://militarnyi.com/en/news/u-s-inspects-greenland-airfield-once-considered-for-military-base/">Militarnyi: U.S. technical survey at Narsarsuaq</a>
+            </p>
 
             <h3>Resolution rules</h3>
             <ul>
@@ -440,12 +563,12 @@
           <section class="case-group" id="tariffs">
             <div class="case-heading">
               <div>
-                <span class="ledger-state state-forecast">Live forecast</span>
+                <span class="ledger-state state-context">Withdrawn unscored</span>
                 <h2>Post-court tariff regime</h2>
               </div>
               <dl class="case-meta">
-                <div><dt>As of</dt><dd>2 August 2026</dd></div>
-                <div><dt>Horizon</dt><dd>20 January 2027 · long</dd></div>
+                <div><dt>Last forecast</dt><dd>2 August 2026</dd></div>
+                <div><dt>Horizon</dt><dd>20 January 2027 · withdrawn 6 November 2026</dd></div>
                 <div><dt>Decision unit</dt><dd>Trump and USTR, constrained by courts, customs administration, markets, and counterparties</dd></div>
               </dl>
             </div>
@@ -487,6 +610,33 @@
             <p class="source-line">
               <a href="https://www.reuters.com/business/trump-directs-gsa-take-steps-remove-canadian-goods-agency-lists-2026-09-08/">Reuters, September 8: direction to begin removing Canadian goods from GSA schedules</a>
             </p>
+            <div class="note">
+              <strong>Closing status, 6 November · not scored.</strong> The
+              general rate is clearly below 20%. The Section 301 headline rates
+              are 10% or 12.5%. The Yale Budget Lab put the average statutory
+              rate at 11.1% in July. Penn Wharton estimated the rate on duties
+              actually collected at 7.1% in August. The direction held, and
+              instruments kept shifting: a 50% Section 338 duty on selected
+              Canadian goods, revised on 30 October; a new Section 232
+              investigation; and a September U.S.–China deal cutting duties on
+              about $60 billion of trade in each direction. Classification still
+              cannot be settled. The covered countries account for 99.4% of
+              imports, which fits the 50% broad-floor branch. Brookings and Tax
+              Foundation estimates put roughly half of import value outside the
+              duties, which fits the 25% narrower branch. The question never
+              defined its denominator. The 2 October review flagged that gap, and
+              it was not repaired, because repairing a rule after the evidence
+              arrives would be retrofitting. A Court of International Trade
+              challenge to the Section 301 action was argued on 30 September.
+              No ruling had been found by closure.
+            </div>
+            <p class="source-line">
+              <a href="https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations">USTR, July: Section 301 forced-labor action and rates</a><br>
+              <a href="https://budgetmodel.wharton.upenn.edu/p/2026-10-14-effective-tariff-rates-and-revenues-updated-october-14-2026/">Penn Wharton Budget Model, 14 October: effective tariff rates and revenues</a><br>
+              <a href="https://www.brookings.edu/articles/the-hidden-tradeoffs-of-using-trumps-tariffs-as-leverage-with-china/">Brookings: share of import value exempt from Section 232 and Section 301 duties</a><br>
+              <a href="https://www.cnbc.com/2026/09/30/trump-tariffs-trade-lawsuit.html">CNBC, 30 September: Court of International Trade argument</a><br>
+              <a href="https://www.troutman.com/insights/canada-tariff-reshuffle-22-products-out-100-in-under-the-50-section-338-duty/">Troutman Pepper: 30 October revision of the Section 338 Canada list</a>
+            </p>
 
             <p class="source-line">
               <a href="https://www.reuters.com/world/us/trump-imposes-forced-labor-duties-60-trading-partners-as-10-us-tariffs-expire-2026-07-24/">Reuters: Section 301 duties replace the temporary global tariff</a><br>
@@ -497,12 +647,12 @@
           <section class="case-group" id="administrative-state">
             <div class="case-heading">
               <div>
-                <span class="ledger-state state-forecast">Live forecast</span>
+                <span class="ledger-state state-context">Withdrawn unscored</span>
                 <h2>Administrative-state restructuring</h2>
               </div>
               <dl class="case-meta">
-                <div><dt>As of</dt><dd>2 August 2026</dd></div>
-                <div><dt>Horizon</dt><dd>20 January 2028 · horizon</dd></div>
+                <div><dt>Last forecast</dt><dd>2 August 2026</dd></div>
+                <div><dt>Horizon</dt><dd>20 January 2028 · withdrawn 6 November 2026</dd></div>
                 <div><dt>Decision unit</dt><dd>White House and OPM; agencies, courts, unions, Congress, and labor markets determine implementation</dd></div>
               </dl>
             </div>
@@ -537,6 +687,31 @@
             <p class="source-line">
               <a href="https://www.whitehouse.gov/presidential-actions/2026/06/implementing-schedule-policy-career-in-the-excepted-service/">White House: implementing Schedule Policy/Career</a><br>
               <a href="https://www.reuters.com/world/trump-signs-order-make-it-easier-fire-8000-federal-workers-2026-06-03/">Reuters: job protections removed from roughly 8,000 policy-influencing positions</a>
+            </p>
+            <div class="note">
+              <strong>Closing status, 6 November · not scored.</strong> More than
+              fourteen months of the horizon remained. The authority side has
+              advanced. The June order placed roughly 8,000 employees in more
+              than 4,800 positions into Schedule Policy/Career. The review found
+              no injunction against it, and union suits remain pending. On
+              29 June, <em>Trump v. Slaughter</em> overruled
+              <em>Humphrey's Executor</em> for the FTC, while <em>Trump v. Cook</em>
+              kept a Federal Reserve governor in office pending process. GAO,
+              TIGTA, and VA inspector-general reports document staffing-linked
+              strain at the IRS, the VA, and the FAA, and advocacy and press
+              reports point to SSA and NWS. That evidence could already fit the
+              degradation branch's three-agency test. But the test never defined
+              a duration or comparator, and most of the documented strain traces
+              to headcount reductions, not to the new schedule. The review found
+              no documented removal under Schedule Policy/Career.
+            </div>
+            <p class="source-line">
+              <a href="https://www.lawfaremedia.org/article/inside-the-implementation-of-schedule-policy-career">Lawfare, 5 June: scope of the Schedule Policy/Career transfer</a><br>
+              <a href="https://www.scotusblog.com/2026/06/court-prevents-trump-from-firing-fed-governor/">SCOTUSblog, 29 June: <em>Trump v. Cook</em></a><br>
+              <a href="https://www.sidley.com/en/insights/newsupdates/2026/06/the-end-of-the-independent-agency-supreme-court-overrules-humphreys-executor">Sidley, June: <em>Trump v. Slaughter</em> overrules <em>Humphrey's Executor</em></a><br>
+              <a href="https://www.journalofaccountancy.com/news/2026/aug/irs-staffing-cuts-delayed-paper-returns-and-refunds-report-says/">Journal of Accountancy, August: GAO on IRS filing-season staffing effects</a><br>
+              <a href="https://www.govexec.com/management/2026/09/vas-reported-staffing-challenges-healthcare-facilities-hits-7-year-high/416034/">Government Executive, September: VA inspector general on occupational shortages</a><br>
+              <a href="https://data.opm.gov/explore-data/analytics/workforce-changes">OPM workforce-change dashboard</a>
             </p>
           </section>
 
@@ -689,7 +864,8 @@
           <h2>Ledger cases</h2>
           <ul>
             <li><a href="#scoring">Confirmations and scores</a></li>
-            <li><a href="#iran">Iran</a></li>
+            <li><a href="#final-scorecard">Final scorecard</a></li>
+            <li><a href="#iran">Iran · resolved</a></li>
             <li><a href="#greenland-arrangement">Greenland arrangement</a></li>
             <li><a href="#greenland-posture">Greenland posture</a></li>
             <li><a href="#tariffs">Tariffs</a></li>
@@ -713,6 +889,7 @@
           <a href="/">Introduction</a>
           <a href="/framework/">Framework</a>
           <a href="/research-foundations/">Research</a>
+          <a href="/closeout/">Closeout</a>
         </div>
       </div>
     </footer>
